@@ -497,4 +497,4 @@ def update_sum_values_chart(selected_sheet, selected_columns, toggle_values):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
