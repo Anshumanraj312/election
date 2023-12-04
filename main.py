@@ -63,6 +63,9 @@ power_bi_iframe = html.Div(
 # Initialize the Dash app
 app = dash.Dash(__name__)
 
+#added by us
+server = app.server
+
 # Create dropdown options for sheets
 dropdown_options_sheets = [{'label': sheet_name, 'value': sheet_name} for sheet_name in sheet_names]
 dropdown_options_sheets2 = dropdown_options_sheets.copy()
@@ -494,4 +497,4 @@ def update_sum_values_chart(selected_sheet, selected_columns, toggle_values):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(port=8051, debug=True)
+    app.run_server(debug=True)
