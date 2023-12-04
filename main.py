@@ -236,6 +236,11 @@ app.layout = html.Div([
                 style={'margin-right': '10px', 'color': '#333'}
             ),
             dcc.Graph(id='sum-values-line-chart'),
+            html.P("© Copyright"),
+                html.P("Anshuman Raj(IAS),"),
+                html.P("SDM & RO Narsinghgarh (Rajgarh), "),
+                html.P("Prepared under guidance and mentorship of Collector Rajgarh,"),
+                html.P("Shri Harsh Dikshit (IAS)"),
         ],
         style={'max-width': '1200px', 'margin': '20px auto', 'padding': '20px', 'border': '1px solid #ddd',
                'background-color': '#e0e0e0'}
