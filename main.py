@@ -10,7 +10,7 @@ import plotly.graph_objs as go
 
 
 # Replace the file path with the correct path to your Excel file
-file_path = 'venv/data/updated_election_turnout copy.xlsx'
+file_path = './updated_election_turnout copy.xlsx'
 
 # Read all sheets into a dictionary of DataFrames
 excel_file = pd.ExcelFile(file_path)
